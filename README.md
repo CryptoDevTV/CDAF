@@ -6,6 +6,10 @@ CDAR - Cryptocurrency Development Audit Ranking is a framework which will help y
 
 ### 1. Organization vs. user account
 
+*Indicators:*
+
+- [] Is it organization account?
+
 *Sources:*
 
 [GitHub personal dashboard](https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/about-your-personal-dashboard)
@@ -14,11 +18,15 @@ CDAR - Cryptocurrency Development Audit Ranking is a framework which will help y
 
 ### 1.1 Organisation Header (Name, Description, Is verified)
 
+*Indicators:*
+
 *Sources:*
 
 [Organization's settings](https://help.github.com/en/github/setting-up-and-managing-organizations-and-teams/accessing-your-organizations-settings)
 
 ### 1.2 Pinned repositories
+
+*Indicators:*
 
 *Sources:*
 
@@ -26,17 +34,23 @@ CDAR - Cryptocurrency Development Audit Ranking is a framework which will help y
 
 ### 1.3 People from organisation
 
+*Indicators:*
+
 *Sources:*
 
 [Enrich user profile](https://help.github.com/en/github/setting-up-and-managing-your-github-profile/about-your-profile)
 
 ### 1.4 Public projects
 
+*Indicators:*
+
 *Sources:*
 
 [Project boards](https://help.github.com/en/github/managing-your-work-on-github/about-project-boards)
 
 ### 1.5 Repositories list (topics)
+
+*Indicators:*
 
 *Sources:*
 
@@ -46,11 +60,15 @@ CDAR - Cryptocurrency Development Audit Ranking is a framework which will help y
 
 ### 2.1 Repository overview (Description, Url)
 
+*Indicators:*
+
 *Sources:*
 
 [About repository](https://help.github.com/en/github/getting-started-with-github/create-a-repo)
 
 ### 2.2 Code
+
+*Indicators:*
 
 *Sources:*
 
@@ -58,11 +76,15 @@ CDAR - Cryptocurrency Development Audit Ranking is a framework which will help y
 
 #### 2.2.1 Branches
 
+*Indicators:*
+
 *Sources:*
 
 [About branches](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-branches)
 
 #### 2.2.2 Packages
+
+*Indicators:*
 
 *Sources:*
 
@@ -70,11 +92,15 @@ CDAR - Cryptocurrency Development Audit Ranking is a framework which will help y
 
 #### 2.2.3 Releases
 
+*Indicators:*
+
 *Sources:*
 
 [Releases](https://help.github.com/en/github/administering-a-repository/about-releases)
 
 #### 2.2.4 License
+
+*Indicators:*
 
 *Sources:*
 
@@ -83,6 +109,8 @@ CDAR - Cryptocurrency Development Audit Ranking is a framework which will help y
 [Which license is appropriate](https://opensource.guide/legal/#which-open-source-license-is-appropriate-for-my-project)
 
 #### 2.2.5 Readme
+
+*Indicators:*
 
 *Sources:*
 
@@ -94,11 +122,15 @@ CDAR - Cryptocurrency Development Audit Ranking is a framework which will help y
 
 ### 2.3 Issues
 
+*Indicators:*
+
 *Sources:*
 
 [About issues](https://help.github.com/en/github/managing-your-work-on-github/about-issues)
 
 #### 2.3.1 Labels
+
+*Indicators:*
 
 *Sources:*
 
@@ -106,15 +138,21 @@ CDAR - Cryptocurrency Development Audit Ranking is a framework which will help y
 
 #### 2.3.2 Milestones
 
+*Indicators:*
+
 *Sources:*
 
 [Milestones, Labels, and Assignees](https://guides.github.com/features/issues/)
 
 #### 2.3.3 Discussion
 
+*Indicators:*
+
 *Sources:*
 
 #### 2.3.4 Assignee
+
+*Indicators:*
 
 *Sources:*
 
@@ -122,15 +160,21 @@ CDAR - Cryptocurrency Development Audit Ranking is a framework which will help y
 
 ### 2.4 Pull Requests
 
+*Indicators:*
+
 *Sources:*
 
 [About pull requests](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
 
 #### 2.4.1 Discussion
 
+*Indicators:*
+
 *Sources:*
 
 #### 2.4.2 Assignee
+
+*Indicators:*
 
 *Sources:*
 
@@ -138,11 +182,15 @@ CDAR - Cryptocurrency Development Audit Ranking is a framework which will help y
 
 ### 2.5 Projects
 
+*Indicators:*
+
 *Sources:*
 
 [Project boards](https://help.github.com/en/github/managing-your-work-on-github/about-project-boards)
 
 ### 2.6 Security
+
+*Indicators:*
 
 *Sources:*
 
@@ -150,13 +198,19 @@ CDAR - Cryptocurrency Development Audit Ranking is a framework which will help y
 
 #### 2.6.1 Advisories
 
+*Indicators:*
+
 *Sources:*
 
 #### 2.6.2 Policy
 
+*Indicators:*
+
 *Sources:*
 
 ### 2.7 Insights
+
+*Indicators:*
 
 *Sources:*
 
@@ -164,11 +218,15 @@ CDAR - Cryptocurrency Development Audit Ranking is a framework which will help y
 
 #### 2.7.1 Community
 
+*Indicators:*
+
 *Sources:*
 
 [Community profiles](https://help.github.com/en/github/building-a-strong-community/about-community-profiles-for-public-repositories)
 
 #### 2.7.2 Dependency graph
+
+*Indicators:*
 
 *Sources:*
 
