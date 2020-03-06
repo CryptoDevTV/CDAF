@@ -8,7 +8,7 @@ CDAR - Cryptocurrency Development Audit Ranking is a framework which will help y
 
 *Indicators:*
 
-- [] Is it organization account?
+- [ ] Is it organization account?
 
 *Sources:*
 
