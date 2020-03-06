@@ -8,7 +8,7 @@ CDAR - Cryptocurrency Development Audit Ranking is a framework which will help y
 
 *Indicators:*
 
-Q1 Is it organization account?
+Q1.1 - Is it organization account?
  
 * [ ] `YES`
 * [ ] `NO`
@@ -17,50 +17,98 @@ Q1 Is it organization account?
 
 > Organizations are shared accounts where businesses and open-source projects can collaborate across many projects at once. Owners and administrators can manage member access to the organization's data and projects with sophisticated security and administrative features.
 
-*Sources:*
-
-[GitHub personal dashboard](https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/about-your-personal-dashboard)
-
+*Sources:* 
+[GitHub personal dashboard](https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/about-your-personal-dashboard),
 [GitHub organizations](https://help.github.com/en/github/setting-up-and-managing-organizations-and-teams/about-organizations)
 
-### 1.1 Organisation Header (Name, Description, Is verified)
+### 1.1 Organization Header (Name, Description, Is verified)
 
 *Indicators:*
 
-*Sources:*
+Q1.1.1 - Is description provided?
+ 
+* [ ] `YES`
+* [ ] `NO`
 
+Q1.1.2 - Is location provided?
+ 
+* [ ] `YES`
+* [ ] `NO`
+
+Q1.1.3 - Is homepage address provided?
+ 
+* [ ] `YES`
+* [ ] `NO`
+
+Q1.1.4 - Is email provided?
+ 
+* [ ] `YES`
+* [ ] `NO`
+
+Q1.1.5 - Is account verified?
+ 
+* [ ] `YES`
+* [ ] `NO`
+
+*Sources:*
 [Organization's settings](https://help.github.com/en/github/setting-up-and-managing-organizations-and-teams/accessing-your-organizations-settings)
 
 ### 1.2 Pinned repositories
 
 *Indicators:*
 
-*Sources:*
+Q1.2.1 - Are there any pinned repositories?
 
+* [ ] `YES`
+* [ ] `NO`
+
+*Sources:*
 [Pinning items](https://help.github.com/en/github/setting-up-and-managing-your-github-profile/pinning-items-to-your-profile)
 
-### 1.3 People from organisation
+### 1.3 People from organization
 
 *Indicators:*
 
-*Sources:*
+Q1.3.1 - Are there any people envolved in organization?
 
+* [ ] `YES`
+* [ ] `NO`
+
+Q1.3.2 - Do they have activity in public repositories?
+
+* [ ] `YES`
+* [ ] `NO`
+
+*Sources:*
 [Enrich user profile](https://help.github.com/en/github/setting-up-and-managing-your-github-profile/about-your-profile)
 
 ### 1.4 Public projects
 
 *Indicators:*
 
-*Sources:*
+Q1.4.1 - Are there any open projects in organization?
 
+* [ ] `YES`
+* [ ] `NO`
+
+*Sources:*
 [Project boards](https://help.github.com/en/github/managing-your-work-on-github/about-project-boards)
 
 ### 1.5 Repositories list (topics)
 
 *Indicators:*
 
-*Sources:*
+Q1.5.1 - Is there developers activity visible in repositories?
 
+* [ ] `YES`
+* [ ] `NO`
+
+Q1.5.2 - Does repositories have topic specified?
+
+* [ ] `YES`
+* [ ] `NO`
+
+*Sources:*
 [Repository topics](https://help.github.com/en/github/administering-a-repository/classifying-your-repository-with-topics)
 
 ## 2. Single repository
@@ -70,7 +118,6 @@ Q1 Is it organization account?
 *Indicators:*
 
 *Sources:*
-
 [About repository](https://help.github.com/en/github/getting-started-with-github/create-a-repo)
 
 ### 2.2 Code
@@ -78,7 +125,6 @@ Q1 Is it organization account?
 *Indicators:*
 
 *Sources:*
-
 [Managing files](https://help.github.com/en/github/managing-files-in-a-repository)
 
 #### 2.2.1 Branches
@@ -86,7 +132,6 @@ Q1 Is it organization account?
 *Indicators:*
 
 *Sources:*
-
 [About branches](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-branches)
 
 #### 2.2.2 Packages
@@ -94,7 +139,6 @@ Q1 Is it organization account?
 *Indicators:*
 
 *Sources:*
-
 [GitHub Packages](https://github.com/features/packages)
 
 #### 2.2.3 Releases
@@ -102,7 +146,6 @@ Q1 Is it organization account?
 *Indicators:*
 
 *Sources:*
-
 [Releases](https://help.github.com/en/github/administering-a-repository/about-releases)
 
 #### 2.2.4 License
@@ -110,9 +153,7 @@ Q1 Is it organization account?
 *Indicators:*
 
 *Sources:*
-
-[Licensing a repository](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/licensing-a-repository)
-
+[Licensing a repository](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/licensing-a-repository), 
 [Which license is appropriate](https://opensource.guide/legal/#which-open-source-license-is-appropriate-for-my-project)
 
 #### 2.2.5 Readme
@@ -120,11 +161,8 @@ Q1 Is it organization account?
 *Indicators:*
 
 *Sources:*
-
-[Documenting project](https://guides.github.com/features/wikis/)
-
-[Template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-
+[Documenting project](https://guides.github.com/features/wikis/), 
+[Template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2), 
 [Suggestions](https://www.makeareadme.com/)
 
 ### 2.3 Issues
@@ -132,7 +170,6 @@ Q1 Is it organization account?
 *Indicators:*
 
 *Sources:*
-
 [About issues](https://help.github.com/en/github/managing-your-work-on-github/about-issues)
 
 #### 2.3.1 Labels
@@ -140,7 +177,6 @@ Q1 Is it organization account?
 *Indicators:*
 
 *Sources:*
-
 [Milestones, Labels, and Assignees](https://guides.github.com/features/issues/)
 
 #### 2.3.2 Milestones
@@ -148,7 +184,6 @@ Q1 Is it organization account?
 *Indicators:*
 
 *Sources:*
-
 [Milestones, Labels, and Assignees](https://guides.github.com/features/issues/)
 
 #### 2.3.3 Discussion
@@ -162,7 +197,6 @@ Q1 Is it organization account?
 *Indicators:*
 
 *Sources:*
-
 [Milestones, Labels, and Assignees](https://guides.github.com/features/issues/)
 
 ### 2.4 Pull Requests
@@ -170,7 +204,6 @@ Q1 Is it organization account?
 *Indicators:*
 
 *Sources:*
-
 [About pull requests](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
 
 #### 2.4.1 Discussion
@@ -184,7 +217,6 @@ Q1 Is it organization account?
 *Indicators:*
 
 *Sources:*
-
 [Milestones, Labels, and Assignees](https://guides.github.com/features/issues/)
 
 ### 2.5 Projects
@@ -192,7 +224,6 @@ Q1 Is it organization account?
 *Indicators:*
 
 *Sources:*
-
 [Project boards](https://help.github.com/en/github/managing-your-work-on-github/about-project-boards)
 
 ### 2.6 Security
@@ -200,7 +231,6 @@ Q1 Is it organization account?
 *Indicators:*
 
 *Sources:*
-
 [Adding a security policy](https://help.github.com/en/github/managing-security-vulnerabilities/adding-a-security-policy-to-your-repository)
 
 #### 2.6.1 Advisories
@@ -220,7 +250,6 @@ Q1 Is it organization account?
 *Indicators:*
 
 *Sources:*
-
 [Viewing insights](https://help.github.com/en/github/setting-up-and-managing-organizations-and-teams/viewing-insights-for-your-organization)
 
 #### 2.7.1 Community
@@ -228,7 +257,6 @@ Q1 Is it organization account?
 *Indicators:*
 
 *Sources:*
-
 [Community profiles](https://help.github.com/en/github/building-a-strong-community/about-community-profiles-for-public-repositories)
 
 #### 2.7.2 Dependency graph
@@ -236,7 +264,5 @@ Q1 Is it organization account?
 *Indicators:*
 
 *Sources:*
-
-[Listing dependencies](https://help.github.com/en/github/visualizing-repository-data-with-graphs/listing-the-packages-that-a-repository-depends-on)
-
+[Listing dependencies](https://help.github.com/en/github/visualizing-repository-data-with-graphs/listing-the-packages-that-a-repository-depends-on), 
 [Listing](https://help.github.com/en/github/visualizing-repository-data-with-graphs/listing-the-projects-that-depend-on-a-repository)
