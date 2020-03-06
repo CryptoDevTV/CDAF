@@ -8,7 +8,14 @@ CDAR - Cryptocurrency Development Audit Ranking is a framework which will help y
 
 *Indicators:*
 
-- [ ] Is it organization account?
+Q1 Is it organization account?
+ 
+* [ ] `YES`
+* [ ] `NO`
+
+> Why does it matter?
+
+> Organizations are shared accounts where businesses and open-source projects can collaborate across many projects at once. Owners and administrators can manage member access to the organization's data and projects with sophisticated security and administrative features.
 
 *Sources:*
 
