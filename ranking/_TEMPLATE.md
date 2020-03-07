@@ -7,20 +7,20 @@
 
 ### Organization
 
-Indicator | Value | Comment 
---------- | ----- | -------
-Q1.1      | 1     | - 
-Q1.1.1    | 1     | - 
-Q1.1.2    | 0     | - 
-Q1.1.3    | 1     | - 
-Q1.1.4    | 1     | - 
-Q1.1.5    | 1     | sample comment 
-Q1.2.1    | 1     | - 
-Q1.3.1    | 0     | -
-Q1.3.2    | 0     | - 
-Q1.4.1    | 1     | - 
-Q1.5.1    | 1     | - 
-Q1.5.2    | 1     | - 
+Indicator | Question 												| Value | Comment 
+--------- | ----------------------------							| ----- | -------
+Q1.1      | Is it organization account? 							| 1     | - 
+Q1.1.1    | Is description provided?								| 1     | - 
+Q1.1.2    | Is location provided?		 							| 0     | - 
+Q1.1.3    | Is homepage address provided?							| 1     | - 
+Q1.1.4    | Is email provided?										| 1     | - 
+Q1.1.5    | Is account verified?									| 1     | sample comment 
+Q1.2.1    | Are there any pinned repositories?  					| 1     | - 
+Q1.3.1    | Are there any people involved in organization?  		| 0     | -
+Q1.3.2    | Do they have activity in public repositories?			| 0     | - 
+Q1.4.1    | Are there any open projects in organization?			| 1     | - 
+Q1.5.1    | Is there developers activity visible in repositories?   | 1     | - 
+Q1.5.2    | Do repositories have topics specified?					| 1     | - 
 
 #### Score
 
