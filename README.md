@@ -103,7 +103,7 @@ Q1.5.1 - Is there developers activity visible in repositories?
 * [ ] `YES`
 * [ ] `NO`
 
-Q1.5.2 - Does repositories have topic specified?
+Q1.5.2 - Does repositories have topics specified?
 
 * [ ] `YES`
 * [ ] `NO`
@@ -113,9 +113,19 @@ Q1.5.2 - Does repositories have topic specified?
 
 ## 2. Single repository
 
-### 2.1 Repository overview (Description, Url)
+### 2.1 Repository overview
 
 *Indicators:*
+
+Q2.1.1 - Is description provided?
+ 
+* [ ] `YES`
+* [ ] `NO`
+
+Q2.1.2 - Are topics provided?
+ 
+* [ ] `YES`
+* [ ] `NO`
 
 *Sources:*
 [About repository](https://help.github.com/en/github/getting-started-with-github/create-a-repo)
@@ -124,12 +134,32 @@ Q1.5.2 - Does repositories have topic specified?
 
 *Indicators:*
 
+Q2.2.1 - Is it forked repository?
+ 
+* [ ] `YES`
+* [ ] `NO`
+
+Q2.2.2 - Is it *monorepo*?
+ 
+* [ ] `YES`
+* [ ] `NO`
+
 *Sources:*
 [Managing files](https://help.github.com/en/github/managing-files-in-a-repository)
 
 #### 2.2.1 Branches
 
 *Indicators:*
+
+Q2.2.1.1 - Are there any branches?
+ 
+* [ ] `YES`
+* [ ] `NO`
+
+Q2.2.1.2 - Are there any active branches?
+ 
+* [ ] `YES`
+* [ ] `NO`
 
 *Sources:*
 [About branches](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-branches)
@@ -138,12 +168,37 @@ Q1.5.2 - Does repositories have topic specified?
 
 *Indicators:*
 
+Q2.2.2.1 - Are there any packages?
+ 
+* [ ] `YES`
+* [ ] `NO`
+
+Q2.2.2.2 - It is possible to check packages popularity?
+ 
+* [ ] `YES`
+* [ ] `NO`
+
 *Sources:*
 [GitHub Packages](https://github.com/features/packages)
 
 #### 2.2.3 Releases
 
 *Indicators:*
+
+Q2.2.3.1 - Are there any releases?
+ 
+* [ ] `YES`
+* [ ] `NO`
+
+Q2.2.3.2 - Are releases verified?
+ 
+* [ ] `YES`
+* [ ] `NO`
+
+Q2.2.3.3 - Are releases different?
+ 
+* [ ] `YES`
+* [ ] `NO`
 
 *Sources:*
 [Releases](https://help.github.com/en/github/administering-a-repository/about-releases)
@@ -152,6 +207,11 @@ Q1.5.2 - Does repositories have topic specified?
 
 *Indicators:*
 
+Q2.2.4.1 - Is license file provided?
+ 
+* [ ] `YES`
+* [ ] `NO`
+
 *Sources:*
 [Licensing a repository](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/licensing-a-repository), 
 [Which license is appropriate](https://opensource.guide/legal/#which-open-source-license-is-appropriate-for-my-project)
@@ -159,6 +219,11 @@ Q1.5.2 - Does repositories have topic specified?
 #### 2.2.5 Readme
 
 *Indicators:*
+
+Q2.2.5.1 - Is README file provided?
+ 
+* [ ] `YES`
+* [ ] `NO`
 
 *Sources:*
 [Documenting project](https://guides.github.com/features/wikis/), 
@@ -169,12 +234,57 @@ Q1.5.2 - Does repositories have topic specified?
 
 *Indicators:*
 
+Q2.3.1 - Are there any open issues?
+ 
+* [ ] `YES`
+* [ ] `NO`
+
+Q2.3.2 - Are there any closed issues?
+ 
+* [ ] `YES`
+* [ ] `NO`
+
+Q2.3.3 - Are there any pinned issues?
+ 
+* [ ] `YES`
+* [ ] `NO`
+
+Q2.3.4 - Does issues have people assigned?
+ 
+* [ ] `YES`
+* [ ] `NO`
+
+Q2.3.5 - Does issues use labels?
+ 
+* [ ] `YES`
+* [ ] `NO`
+
+Q2.3.6 - Does issues have conversations?
+ 
+* [ ] `YES`
+* [ ] `NO`
+
+Q2.3.7 - Are issues a part of milestones?
+ 
+* [ ] `YES`
+* [ ] `NO`
+
 *Sources:*
 [About issues](https://help.github.com/en/github/managing-your-work-on-github/about-issues)
 
 #### 2.3.1 Labels
 
 *Indicators:*
+
+Q2.3.1.1 - Are there labels in use?
+ 
+* [ ] `YES`
+* [ ] `NO`
+
+Q2.3.1.2 - Are there any custom issues?
+ 
+* [ ] `YES`
+* [ ] `NO`
 
 *Sources:*
 [Milestones, Labels, and Assignees](https://guides.github.com/features/issues/)
@@ -183,45 +293,70 @@ Q1.5.2 - Does repositories have topic specified?
 
 *Indicators:*
 
+Q2.3.2.1 - Are there milestones in use?
+ 
+* [ ] `YES`
+* [ ] `NO`
+
+Q2.3.2.2 - Are existed milestones frequently updated?
+ 
+* [ ] `YES`
+* [ ] `NO`
+
+Q2.3.2.3 - Are existed milestones have due date set?
+ 
+* [ ] `YES`
+* [ ] `NO`
+
 *Sources:*
 [Milestones, Labels, and Assignees](https://guides.github.com/features/issues/)
 
-#### 2.3.3 Discussion
-
-*Indicators:*
-
-*Sources:*
-
-#### 2.3.4 Assignee
-
-*Indicators:*
-
-*Sources:*
-[Milestones, Labels, and Assignees](https://guides.github.com/features/issues/)
 
 ### 2.4 Pull Requests
 
 *Indicators:*
 
+Q2.4.1 - Are there pull requests in use?
+ 
+* [ ] `YES`
+* [ ] `NO`
+
+Q2.4.2 - Are there any open pull requests?
+ 
+* [ ] `YES`
+* [ ] `NO`
+
+Q2.4.3 - Are there any closed pull requests?
+ 
+* [ ] `YES`
+* [ ] `NO`
+
+Q2.4.4 - Does pull requests use labels?
+ 
+* [ ] `YES`
+* [ ] `NO`
+
+Q2.4.5 - Does pull requests have conversations?
+ 
+* [ ] `YES`
+* [ ] `NO`
+
 *Sources:*
 [About pull requests](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
-
-#### 2.4.1 Discussion
-
-*Indicators:*
-
-*Sources:*
-
-#### 2.4.2 Assignee
-
-*Indicators:*
-
-*Sources:*
-[Milestones, Labels, and Assignees](https://guides.github.com/features/issues/)
 
 ### 2.5 Projects
 
 *Indicators:*
+
+Q2.5.1 - Are there any open projects?
+ 
+* [ ] `YES`
+* [ ] `NO`
+
+Q2.5.2 - Are there any closed projects?
+ 
+* [ ] `YES`
+* [ ] `NO`
 
 *Sources:*
 [Project boards](https://help.github.com/en/github/managing-your-work-on-github/about-project-boards)
@@ -230,24 +365,42 @@ Q1.5.2 - Does repositories have topic specified?
 
 *Indicators:*
 
+Q2.6.1 - Are there any advisories?
+ 
+* [ ] `YES`
+* [ ] `NO`
+
+Q2.6.2 - Does repository have any security policy?
+ 
+* [ ] `YES`
+* [ ] `NO`
+
 *Sources:*
 [Adding a security policy](https://help.github.com/en/github/managing-security-vulnerabilities/adding-a-security-policy-to-your-repository)
-
-#### 2.6.1 Advisories
-
-*Indicators:*
-
-*Sources:*
-
-#### 2.6.2 Policy
-
-*Indicators:*
-
-*Sources:*
 
 ### 2.7 Insights
 
 *Indicators:*
+
+Q2.7.1 - It is possible to see any work result during the last month?
+ 
+* [ ] `YES`
+* [ ] `NO`
+
+Q2.7.2 - Does repository has watchers?
+ 
+* [ ] `YES`
+* [ ] `NO`
+
+Q2.7.2 - Does repository has stars?
+ 
+* [ ] `YES`
+* [ ] `NO`
+
+Q2.7.2 - Does repository has forks?
+ 
+* [ ] `YES`
+* [ ] `NO`
 
 *Sources:*
 [Viewing insights](https://help.github.com/en/github/setting-up-and-managing-organizations-and-teams/viewing-insights-for-your-organization)
@@ -256,12 +409,22 @@ Q1.5.2 - Does repositories have topic specified?
 
 *Indicators:*
 
+Q2.7.1.1 - Does repository community profile passed test?
+ 
+* [ ] `YES`
+* [ ] `NO`
+
 *Sources:*
 [Community profiles](https://help.github.com/en/github/building-a-strong-community/about-community-profiles-for-public-repositories)
 
 #### 2.7.2 Dependency graph
 
 *Indicators:*
+
+Q2.7.2.1 - Does repository has any dependents?
+ 
+* [ ] `YES`
+* [ ] `NO`
 
 *Sources:*
 [Listing dependencies](https://help.github.com/en/github/visualizing-repository-data-with-graphs/listing-the-packages-that-a-repository-depends-on), 
