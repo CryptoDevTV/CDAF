@@ -134,12 +134,12 @@ Q2.1.2 - Are topics provided?
 
 *Indicators:*
 
-Q2.2.1 - Is it forked repository?
+Q2.2.1 - Is it origin repository? (not forked)
  
 * [ ] `YES`
 * [ ] `NO`
 
-Q2.2.2 - Is it *monorepo*?
+Q2.2.2 - Is it not a *monorepo*?
  
 * [ ] `YES`
 * [ ] `NO`
