@@ -8,12 +8,12 @@ CDAF - Cryptocurrency Development Audit Framework is a tool which will help you 
 
 *Indicators:*
 
-Q1.1 - Is it organization account?
+##### Q1.1 - Is it organization account?
  
 * [ ] `YES`
 * [ ] `NO`
 
-> Why does it matter?
+###### Why does it matter?
 
 > Organizations are shared accounts where businesses and open-source projects can collaborate across many projects at once. Owners and administrators can manage member access to the organization's data and projects with sophisticated security and administrative features.
 
@@ -25,30 +25,34 @@ Q1.1 - Is it organization account?
 
 *Indicators:*
 
-Q1.1.1 - Is description provided?
+##### Q1.1.1 - Is description provided?
  
 * [ ] `YES`
 * [ ] `NO`
 
-Q1.1.2 - Is location provided?
+##### Q1.1.2 - Is location provided?
  
 * [ ] `YES`
 * [ ] `NO`
 
-Q1.1.3 - Is homepage address provided?
+##### Q1.1.3 - Is homepage address provided?
  
 * [ ] `YES`
 * [ ] `NO`
 
-Q1.1.4 - Is email provided?
+##### Q1.1.4 - Is email provided?
  
 * [ ] `YES`
 * [ ] `NO`
 
-Q1.1.5 - Is account verified?
+##### Q1.1.5 - Is account verified?
  
 * [ ] `YES`
 * [ ] `NO`
+
+###### Why does it matter?
+
+> TODO: needs some explanation.
 
 *Sources:*
 [Organization's settings](https://help.github.com/en/github/setting-up-and-managing-organizations-and-teams/accessing-your-organizations-settings)
@@ -57,10 +61,14 @@ Q1.1.5 - Is account verified?
 
 *Indicators:*
 
-Q1.2.1 - Are there any pinned repositories?
+##### Q1.2.1 - Are there any pinned repositories?
 
 * [ ] `YES`
 * [ ] `NO`
+
+###### Why does it matter?
+
+> TODO: needs some explanation.
 
 *Sources:*
 [Pinning items](https://help.github.com/en/github/setting-up-and-managing-your-github-profile/pinning-items-to-your-profile)
@@ -69,15 +77,19 @@ Q1.2.1 - Are there any pinned repositories?
 
 *Indicators:*
 
-Q1.3.1 - Are there any people involved in organization?
+##### Q1.3.1 - Are there any people involved in organization?
 
 * [ ] `YES`
 * [ ] `NO`
 
-Q1.3.2 - Do they have activity in public repositories?
+##### Q1.3.2 - Do they have activity in public repositories?
 
 * [ ] `YES`
 * [ ] `NO`
+
+###### Why does it matter?
+
+> TODO: needs some explanation.
 
 *Sources:*
 [Enrich user profile](https://help.github.com/en/github/setting-up-and-managing-your-github-profile/about-your-profile)
@@ -86,10 +98,14 @@ Q1.3.2 - Do they have activity in public repositories?
 
 *Indicators:*
 
-Q1.4.1 - Are there any open projects in organization?
+##### Q1.4.1 - Are there any open projects in organization?
 
 * [ ] `YES`
 * [ ] `NO`
+
+###### Why does it matter?
+
+> TODO: needs some explanation.
 
 *Sources:*
 [Project boards](https://help.github.com/en/github/managing-your-work-on-github/about-project-boards)
@@ -98,15 +114,19 @@ Q1.4.1 - Are there any open projects in organization?
 
 *Indicators:*
 
-Q1.5.1 - Is there developers activity visible in repositories?
+##### Q1.5.1 - Is there developers activity visible in repositories?
 
 * [ ] `YES`
 * [ ] `NO`
 
-Q1.5.2 - Do repositories have topics specified?
+##### Q1.5.2 - Do repositories have topics specified?
 
 * [ ] `YES`
 * [ ] `NO`
+
+###### Why does it matter?
+
+> TODO: needs some explanation.
 
 *Sources:*
 [Repository topics](https://help.github.com/en/github/administering-a-repository/classifying-your-repository-with-topics)
@@ -117,15 +137,19 @@ Q1.5.2 - Do repositories have topics specified?
 
 *Indicators:*
 
-Q2.1.1 - Is description provided?
+##### Q2.1.1 - Is description provided?
  
 * [ ] `YES`
 * [ ] `NO`
 
-Q2.1.2 - Are topics provided?
+##### Q2.1.2 - Are topics provided?
  
 * [ ] `YES`
 * [ ] `NO`
+
+###### Why does it matter?
+
+> TODO: needs some explanation.
 
 *Sources:*
 [About repository](https://help.github.com/en/github/getting-started-with-github/create-a-repo)
@@ -134,15 +158,19 @@ Q2.1.2 - Are topics provided?
 
 *Indicators:*
 
-Q2.2.1 - Is it origin repository? (not forked)
+##### Q2.2.1 - Is it origin repository? (not forked)
  
 * [ ] `YES`
 * [ ] `NO`
 
-Q2.2.2 - Is it not a *monorepo*?
+##### Q2.2.2 - Is it not a *monorepo*?
  
 * [ ] `YES`
 * [ ] `NO`
+
+###### Why does it matter?
+
+> TODO: needs some explanation.
 
 *Sources:*
 [Managing files](https://help.github.com/en/github/managing-files-in-a-repository)
@@ -151,15 +179,19 @@ Q2.2.2 - Is it not a *monorepo*?
 
 *Indicators:*
 
-Q2.2.1.1 - Are there any branches?
+##### Q2.2.1.1 - Are there any branches?
  
 * [ ] `YES`
 * [ ] `NO`
 
-Q2.2.1.2 - Are there any active branches?
+##### Q2.2.1.2 - Are there any active branches?
  
 * [ ] `YES`
 * [ ] `NO`
+
+###### Why does it matter?
+
+> TODO: needs some explanation.
 
 *Sources:*
 [About branches](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-branches)
@@ -168,15 +200,19 @@ Q2.2.1.2 - Are there any active branches?
 
 *Indicators:*
 
-Q2.2.2.1 - Are there any packages?
+##### Q2.2.2.1 - Are there any packages?
  
 * [ ] `YES`
 * [ ] `NO`
 
-Q2.2.2.2 - It is possible to check packages popularity?
+##### Q2.2.2.2 - It is possible to check packages popularity?
  
 * [ ] `YES`
 * [ ] `NO`
+
+###### Why does it matter?
+
+> TODO: needs some explanation.
 
 *Sources:*
 [GitHub Packages](https://github.com/features/packages)
@@ -185,20 +221,24 @@ Q2.2.2.2 - It is possible to check packages popularity?
 
 *Indicators:*
 
-Q2.2.3.1 - Are there any releases?
+##### Q2.2.3.1 - Are there any releases?
  
 * [ ] `YES`
 * [ ] `NO`
 
-Q2.2.3.2 - Are releases verified?
+##### Q2.2.3.2 - Are releases verified?
  
 * [ ] `YES`
 * [ ] `NO`
 
-Q2.2.3.3 - Are releases different?
+##### Q2.2.3.3 - Are releases different?
  
 * [ ] `YES`
 * [ ] `NO`
+
+###### Why does it matter?
+
+> TODO: needs some explanation.
 
 *Sources:*
 [Releases](https://help.github.com/en/github/administering-a-repository/about-releases)
@@ -207,10 +247,14 @@ Q2.2.3.3 - Are releases different?
 
 *Indicators:*
 
-Q2.2.4.1 - Is license file provided?
+##### Q2.2.4.1 - Is license file provided?
  
 * [ ] `YES`
 * [ ] `NO`
+
+###### Why does it matter?
+
+> TODO: needs some explanation.
 
 *Sources:*
 [Licensing a repository](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/licensing-a-repository), 
@@ -220,10 +264,14 @@ Q2.2.4.1 - Is license file provided?
 
 *Indicators:*
 
-Q2.2.5.1 - Is README file provided?
+##### Q2.2.5.1 - Is README file provided?
  
 * [ ] `YES`
 * [ ] `NO`
+
+###### Why does it matter?
+
+> TODO: needs some explanation.
 
 *Sources:*
 [Documenting project](https://guides.github.com/features/wikis/), 
@@ -234,40 +282,44 @@ Q2.2.5.1 - Is README file provided?
 
 *Indicators:*
 
-Q2.3.1 - Are there any open issues?
+##### Q2.3.1 - Are there any open issues?
  
 * [ ] `YES`
 * [ ] `NO`
 
-Q2.3.2 - Are there any closed issues?
+##### Q2.3.2 - Are there any closed issues?
  
 * [ ] `YES`
 * [ ] `NO`
 
-Q2.3.3 - Are there any pinned issues?
+##### Q2.3.3 - Are there any pinned issues?
  
 * [ ] `YES`
 * [ ] `NO`
 
-Q2.3.4 - Are there people assigned to the issues?
+##### Q2.3.4 - Are there people assigned to the issues?
  
 * [ ] `YES`
 * [ ] `NO`
 
-Q2.3.5 - Do issues use labels?
+##### Q2.3.5 - Do issues use labels?
  
 * [ ] `YES`
 * [ ] `NO`
 
-Q2.3.6 - Do issues have conversations?
+##### Q2.3.6 - Do issues have conversations?
  
 * [ ] `YES`
 * [ ] `NO`
 
-Q2.3.7 - Are issues a part of milestones?
+##### Q2.3.7 - Are issues a part of milestones?
  
 * [ ] `YES`
 * [ ] `NO`
+
+###### Why does it matter?
+
+> TODO: needs some explanation.
 
 *Sources:*
 [About issues](https://help.github.com/en/github/managing-your-work-on-github/about-issues)
@@ -276,15 +328,19 @@ Q2.3.7 - Are issues a part of milestones?
 
 *Indicators:*
 
-Q2.3.1.1 - Are there labels in use?
+##### Q2.3.1.1 - Are there labels in use?
  
 * [ ] `YES`
 * [ ] `NO`
 
-Q2.3.1.2 - Are there any custom issues?
+##### Q2.3.1.2 - Are there any custom issues?
  
 * [ ] `YES`
 * [ ] `NO`
+
+###### Why does it matter?
+
+> TODO: needs some explanation.
 
 *Sources:*
 [Milestones, Labels, and Assignees](https://guides.github.com/features/issues/)
@@ -293,20 +349,24 @@ Q2.3.1.2 - Are there any custom issues?
 
 *Indicators:*
 
-Q2.3.2.1 - Are there milestones in use?
+##### Q2.3.2.1 - Are there milestones in use?
  
 * [ ] `YES`
 * [ ] `NO`
 
-Q2.3.2.2 - Are existed milestones frequently updated?
+##### Q2.3.2.2 - Are existed milestones frequently updated?
  
 * [ ] `YES`
 * [ ] `NO`
 
-Q2.3.2.3 - Are existed milestones have due date set?
+##### Q2.3.2.3 - Are existed milestones have due date set?
  
 * [ ] `YES`
 * [ ] `NO`
+
+###### Why does it matter?
+
+> TODO: needs some explanation.
 
 *Sources:*
 [Milestones, Labels, and Assignees](https://guides.github.com/features/issues/)
@@ -316,30 +376,34 @@ Q2.3.2.3 - Are existed milestones have due date set?
 
 *Indicators:*
 
-Q2.4.1 - Are there pull requests in use?
+##### Q2.4.1 - Are there pull requests in use?
  
 * [ ] `YES`
 * [ ] `NO`
 
-Q2.4.2 - Are there any open pull requests?
+##### Q2.4.2 - Are there any open pull requests?
  
 * [ ] `YES`
 * [ ] `NO`
 
-Q2.4.3 - Are there any closed pull requests?
+##### Q2.4.3 - Are there any closed pull requests?
  
 * [ ] `YES`
 * [ ] `NO`
 
-Q2.4.4 - Do pull requests use labels?
+##### Q2.4.4 - Do pull requests use labels?
  
 * [ ] `YES`
 * [ ] `NO`
 
-Q2.4.5 - Do pull requests have conversations?
+##### Q2.4.5 - Do pull requests have conversations?
  
 * [ ] `YES`
 * [ ] `NO`
+
+###### Why does it matter?
+
+> TODO: needs some explanation.
 
 *Sources:*
 [About pull requests](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
@@ -348,15 +412,19 @@ Q2.4.5 - Do pull requests have conversations?
 
 *Indicators:*
 
-Q2.5.1 - Are there any open projects?
+##### Q2.5.1 - Are there any open projects?
  
 * [ ] `YES`
 * [ ] `NO`
 
-Q2.5.2 - Are there any closed projects?
+##### Q2.5.2 - Are there any closed projects?
  
 * [ ] `YES`
 * [ ] `NO`
+
+###### Why does it matter?
+
+> TODO: needs some explanation.
 
 *Sources:*
 [Project boards](https://help.github.com/en/github/managing-your-work-on-github/about-project-boards)
@@ -365,15 +433,19 @@ Q2.5.2 - Are there any closed projects?
 
 *Indicators:*
 
-Q2.6.1 - Are there any security advisories?
+##### Q2.6.1 - Are there any security advisories?
  
 * [ ] `YES`
 * [ ] `NO`
 
-Q2.6.2 - Does repository have any security policy?
+##### Q2.6.2 - Does repository have any security policy?
  
 * [ ] `YES`
 * [ ] `NO`
+
+###### Why does it matter?
+
+> TODO: needs some explanation.
 
 *Sources:*
 [Adding a security policy](https://help.github.com/en/github/managing-security-vulnerabilities/adding-a-security-policy-to-your-repository)
@@ -382,37 +454,45 @@ Q2.6.2 - Does repository have any security policy?
 
 *Indicators:*
 
-Q2.7.1 - Is it possible to see any work result during the last month?
+##### Q2.7.1 - Is it possible to see any work result during the last month?
  
 * [ ] `YES`
 * [ ] `NO`
 
-Q2.7.2 - Do repository have any watchers?
+##### Q2.7.2 - Do repository have any watchers?
  
 * [ ] `YES`
 * [ ] `NO`
 
-Q2.7.3 - Do repository have any stars?
+##### Q2.7.3 - Do repository have any stars?
  
 * [ ] `YES`
 * [ ] `NO`
 
-Q2.7.4 - Does repository have any forks?
+##### Q2.7.4 - Does repository have any forks?
  
 * [ ] `YES`
 * [ ] `NO`
+
+###### Why does it matter?
+
+> TODO: needs some explanation.
 
 *Sources:*
 [Viewing insights](https://help.github.com/en/github/setting-up-and-managing-organizations-and-teams/viewing-insights-for-your-organization)
 
-#### 2.7.1 Community
+##### 2.7.1 Community
 
 *Indicators:*
 
-Q2.7.1.1 - Did repository community profile pass test?
+##### Q2.7.1.1 - Did repository community profile pass test?
  
 * [ ] `YES`
 * [ ] `NO`
+
+###### Why does it matter?
+
+> TODO: needs some explanation.
 
 *Sources:*
 [Community profiles](https://help.github.com/en/github/building-a-strong-community/about-community-profiles-for-public-repositories)
@@ -421,15 +501,19 @@ Q2.7.1.1 - Did repository community profile pass test?
 
 *Indicators:*
 
-Q2.7.2.1 - Does repository have any dependents?
+##### Q2.7.2.1 - Does repository have any dependents?
  
 * [ ] `YES`
 * [ ] `NO`
 
-Q2.7.2.2 - Does repository have more than 25 dependencies?
+##### Q2.7.2.2 - Does repository have more than 25 dependencies?
  
 * [ ] `YES`
 * [ ] `NO`
+
+###### Why does it matter?
+
+> TODO: needs some explanation.
 
 *Sources:*
 [Listing dependencies](https://help.github.com/en/github/visualizing-repository-data-with-graphs/listing-the-packages-that-a-repository-depends-on), 
