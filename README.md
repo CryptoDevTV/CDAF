@@ -392,12 +392,12 @@ Q2.7.2 - Do repository have any watchers?
 * [ ] `YES`
 * [ ] `NO`
 
-Q2.7.2 - Do repository have any stars?
+Q2.7.3 - Do repository have any stars?
  
 * [ ] `YES`
 * [ ] `NO`
 
-Q2.7.2 - Does repository have any forks?
+Q2.7.4 - Does repository have any forks?
  
 * [ ] `YES`
 * [ ] `NO`
