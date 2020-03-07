@@ -1,6 +1,6 @@
-# Cryptocurrency Development Audit Ranking
+# Cryptocurrency Development Audit Framework
 
-CDAR - Cryptocurrency Development Audit Ranking is a framework which will help you in your own research of cryptocurrency project. Follow each point and investigate the repository, after this quick process you should get to know more about work progress and development status of the project.
+CDAF - Cryptocurrency Development Audit Framework is a tool which will help you in your own research of cryptocurrency project. Follow each point and investigate the repository, after this quick process you should get to know more about work progress and development status of the project.
 
 ## Overview
 
@@ -69,7 +69,7 @@ Q1.2.1 - Are there any pinned repositories?
 
 *Indicators:*
 
-Q1.3.1 - Are there any people envolved in organization?
+Q1.3.1 - Are there any people involved in organization?
 
 * [ ] `YES`
 * [ ] `NO`
@@ -103,7 +103,7 @@ Q1.5.1 - Is there developers activity visible in repositories?
 * [ ] `YES`
 * [ ] `NO`
 
-Q1.5.2 - Does repositories have topics specified?
+Q1.5.2 - Do repositories have topics specified?
 
 * [ ] `YES`
 * [ ] `NO`
@@ -249,17 +249,17 @@ Q2.3.3 - Are there any pinned issues?
 * [ ] `YES`
 * [ ] `NO`
 
-Q2.3.4 - Does issues have people assigned?
+Q2.3.4 - Are there people assigned to the issues?
  
 * [ ] `YES`
 * [ ] `NO`
 
-Q2.3.5 - Does issues use labels?
+Q2.3.5 - Do issues use labels?
  
 * [ ] `YES`
 * [ ] `NO`
 
-Q2.3.6 - Does issues have conversations?
+Q2.3.6 - Do issues have conversations?
  
 * [ ] `YES`
 * [ ] `NO`
@@ -331,12 +331,12 @@ Q2.4.3 - Are there any closed pull requests?
 * [ ] `YES`
 * [ ] `NO`
 
-Q2.4.4 - Does pull requests use labels?
+Q2.4.4 - Do pull requests use labels?
  
 * [ ] `YES`
 * [ ] `NO`
 
-Q2.4.5 - Does pull requests have conversations?
+Q2.4.5 - Do pull requests have conversations?
  
 * [ ] `YES`
 * [ ] `NO`
@@ -365,7 +365,7 @@ Q2.5.2 - Are there any closed projects?
 
 *Indicators:*
 
-Q2.6.1 - Are there any advisories?
+Q2.6.1 - Are there any security advisories?
  
 * [ ] `YES`
 * [ ] `NO`
@@ -382,22 +382,22 @@ Q2.6.2 - Does repository have any security policy?
 
 *Indicators:*
 
-Q2.7.1 - It is possible to see any work result during the last month?
+Q2.7.1 - Is it possible to see any work result during the last month?
  
 * [ ] `YES`
 * [ ] `NO`
 
-Q2.7.2 - Does repository has watchers?
+Q2.7.2 - Do repository have any watchers?
  
 * [ ] `YES`
 * [ ] `NO`
 
-Q2.7.2 - Does repository has stars?
+Q2.7.2 - Do repository have any stars?
  
 * [ ] `YES`
 * [ ] `NO`
 
-Q2.7.2 - Does repository has forks?
+Q2.7.2 - Does repository have any forks?
  
 * [ ] `YES`
 * [ ] `NO`
@@ -409,7 +409,7 @@ Q2.7.2 - Does repository has forks?
 
 *Indicators:*
 
-Q2.7.1.1 - Does repository community profile passed test?
+Q2.7.1.1 - Did repository community profile pass test?
  
 * [ ] `YES`
 * [ ] `NO`
@@ -421,7 +421,7 @@ Q2.7.1.1 - Does repository community profile passed test?
 
 *Indicators:*
 
-Q2.7.2.1 - Does repository has any dependents?
+Q2.7.2.1 - Does repository have any dependents?
  
 * [ ] `YES`
 * [ ] `NO`
