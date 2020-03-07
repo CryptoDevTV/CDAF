@@ -426,6 +426,11 @@ Q2.7.2.1 - Does repository have any dependents?
 * [ ] `YES`
 * [ ] `NO`
 
+Q2.7.2.2 - Does repository have more than 25 dependencies?
+ 
+* [ ] `YES`
+* [ ] `NO`
+
 *Sources:*
 [Listing dependencies](https://help.github.com/en/github/visualizing-repository-data-with-graphs/listing-the-packages-that-a-repository-depends-on), 
 [Listing](https://help.github.com/en/github/visualizing-repository-data-with-graphs/listing-the-projects-that-depend-on-a-repository)
